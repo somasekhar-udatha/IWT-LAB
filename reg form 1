@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <table border="black" style = "width:100% ;background-color: rgb(170, 205, 235) ; ">
+            <tr> 
+                <td colspan = "2">  <center><h1>USER REGISTRATION </h1></center></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for = "fname"> First Name: </label>
+                    <br>
+                    <input type = "text" id = "fname" name = "fname" size = "50">
+                    <br> 
+                </td>
+                <td>
+                    <label for = "Lname"> Last Name:</label>
+                    <br>
+                    <input type = "text" id = "Lname" name = "Lname">
+                    <br> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "mail"> E-Mail:</label>
+                    <br>
+                    <input type = "text" id = "mail" name = "mail" size = "50">
+                    <br>
+                </td>
+                <td>
+                    <label for = "zip"> Zip Code: </label>
+                    <br>
+                    <input type = "text" id = "zip" name = "zip">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <label for = "uname"> User Name: </label>
+                    <br>
+                    <input type = "text" id = "uname" name = "uname" >
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "pass"> Password: </label>
+                    <br>
+                    <input type = "text" id = "pass" name = "pass" size = "50">
+                    <br>
+                </td>
+                <td>
+                    <label for = "confirm"> Confirm Password </label>
+                    <br>
+                    <input type = "text" id = "confirm" name = "confirm">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <label for = "music"> What music are you interested in ? </label>
+                    <br>
+                    <input type = "checkbox">Rock
+                    <input type = "checkbox">Pop
+                    <input type = "checkbox">Blue Grass
+                    <br>
+                    <input type = "checkbox">Block
+                    <input type = "checkbox">Jazz
+                    <input type = "checkbox">Rock
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <label for = "ques"> Would you like to receive e-mail notification on our special sales </label>
+                    <br>
+                    <input type = "checkbox">Yes
+                    <input type = "checkbox">No
+
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
